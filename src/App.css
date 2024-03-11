@@ -20,11 +20,11 @@ p{
 }
 
 :root {
-  --primary: #5e3bee;
-  --heading-color:#282938;
-  --bg-shade: #f5fcff;
-  --github: #e62872;
-  --darkblue: #1c1e53;
+  --primary: #6BAA75;
+  --heading-color:#25393F;
+  --bg-shade: #F9F9F9;
+  --github: #FE5F55;
+  --darkblue: #124076;
   --black: #000000;
   --white: #ffffff;
 }
@@ -141,7 +141,7 @@ h3 {
 /* Skills & About Me */
 .section-title {
   color: var(--heading-color);
-  font-size: 21px;
+  font-size: 25px;
   text-align: center;
   font-style: normal;
   font-weight: 600;
@@ -240,7 +240,7 @@ h3 {
 }
 
 .hero-section-title-color {
- color: var(--primary)
+ color: var(--primary);
 }
 
 .hero-section-description {
@@ -356,7 +356,9 @@ h3 {
  /* About Me Section Style End */
 
  /* Projects Section Starts */
-
+ .btn-github:hover svg path {
+  fill: var(--github)
+ }
  .projects-section {
   display:flex;
   padding: 112px 85px;

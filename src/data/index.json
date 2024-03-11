@@ -2,26 +2,26 @@
     "skills": [
         {
             "id": "1",
-            "src": "./assets/product-chain-1.png",
-            "title": "Front-End",
+            "src": "./assets/html.png",
+            "title": "HTML",
             "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
         },
         {
             "id": "2",
-            "src": "./assets/tag-1.png",
-            "title": "Back-End",
+            "src": "./assets/css.png",
+            "title": "CSS",
             "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
         },
         {
             "id": "3",
-            "src": "./assets/feather-pen-2.png",
-            "title": "UI/UX",
+            "src": "./assets/javascript.png",
+            "title": "Javascript",
             "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
         },
         {
             "id": "4",
-            "src": "./assets/feather-pen-1.png",
-            "title": "Webflow Development",
+            "src": "./assets/react.png",
+            "title": "React",
             "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
         }
     ],
@@ -43,7 +43,7 @@
         {
             "id": "3",
             "src": "./assets/placeholder-image-2.png",
-            "title": "Easy Return",
+            "title": "Github User Search",
             "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
             "link": "View in Github"
         }

@@ -5,12 +5,12 @@ function Hero (){
                 <div className="hero-section-content">
                     <p className="section-title">Hey I'm Sammi</p>
                     <h1 className="hero-section-title">
-                        <span className="hero-section-title-color">Full Stack</span>{" "}
+                        <span className="hero-section-title-color">Front End</span>{" "}
                         <br />
                         Developer
                     </h1>
                     <p className="hero-section-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam.
+                    From pixels to perfection, turning ideas into interactive wonders. <br/> Junior frontend developer with a passion for crafting beautiful web experiences.
                     </p>
                 </div>
                 <button className="btn btn-primary"> Get in touch</button>
