@@ -423,6 +423,11 @@ h3 {
     color: var(--heading-color);
   }
 
+  .projects-section-links {
+    display: flex;
+    gap: 30px;
+  }
+
   .projects-link {
     text-decoration: none;
     display: flex;
