@@ -4,45 +4,35 @@
             "id": "1",
             "src": "./assets/html.png",
             "title": "HTML",
-            "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "description": "Proficient in creating structured web pages with HTML5, ensuring accessibility, quality, and user-friendliness."
         },
         {
             "id": "2",
             "src": "./assets/css.png",
             "title": "CSS",
-            "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "description": "Skilled in using CSS3 to style websites, creating visually appealing layouts that are responsive."
         },
         {
             "id": "3",
             "src": "./assets/javascript.png",
             "title": "Javascript",
-            "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "description": "Uses JavaScript to enhance website interactivity, incorporating animations and dynamic content."
         },
         {
             "id": "4",
             "src": "./assets/react.png",
             "title": "React",
-            "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "description": "Exploring React, with a focus on creating dynamic user interfaces and improving user experiences."
         }
     ],
     "projects": [
         {
-            "id": "1",
-            "src": "./assets/placeholder-image.png",
-            "title": "Ahuse",
-            "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-            "linkTag": "View in Github",
-            "url": "#",
-            "projectSite": "#",
-            "projectTag": "View Live Site"
-        },
-        {
             "id": "2",
             "src": "./assets/placeholder-image-1.png",
-            "title": "App Dashboard",
-            "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+            "title": "Crypto Price Tracking",
+            "description": "Track cryptocurrency prices with this React app using the CoinGecko API. Explore trending coins, view coin details, and track market value.",
             "linkTag": "View in Github",
-            "url": "#",
+            "url": "https://github.com/SOyeniyi801/crypto-price-app",
             "projectSite": "#",
             "projectTag": "View Live Site"
         },
@@ -50,7 +40,7 @@
             "id": "3",
             "src": "./assets/placeholder-image-2.png",
             "title": "Github User Search",
-            "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+            "description": "Search for GitHub users and view their profiles with this app. Features include light/dark themes and error handling for user not found.",
             "linkTag": "View in Github",
             "url": "https://github.com/SOyeniyi801/github-api-app",
             "projectSite": "#",

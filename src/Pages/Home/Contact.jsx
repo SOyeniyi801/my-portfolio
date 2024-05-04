@@ -31,7 +31,7 @@ function Contact() {
             <div>
                 <p className="sub-title"> Get In Touch</p>
                 <h2>Contact Me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, asperiores.</p>
+                <p>Open to inquiries</p>
             </div>
             <form onSubmit={sendMessage} className="contact-form-container">
                 <div className="container">
