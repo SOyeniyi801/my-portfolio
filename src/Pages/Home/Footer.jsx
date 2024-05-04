@@ -64,7 +64,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="www.devdiariesbysammi.com"
+                href="http://www.devdiariesbysammi.com"
                 className="navbar-content"
                 target="_blank"
                 rel="noreferrer"
