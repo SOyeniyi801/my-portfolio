@@ -100,6 +100,14 @@ function Navbar() {
               Projects
             </Link>
           </li>
+          <li>
+              <a
+                href="#"
+                className="navbar-content"
+                target="_blank"
+                rel="noreferrer"
+              > Blog</a>
+            </li>
         </ul>
       </div>
       <a
