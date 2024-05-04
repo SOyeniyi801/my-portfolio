@@ -43,7 +43,6 @@ function Navbar() {
       >
         <span className="nav_hamburger_line"></span>
         <span className="nav_hamburger_line"></span>
-        <span className="nav_hamburger_line"></span>
       </a>
 
       <div className={`navbar-items ${navActive ? "active" : ""}`}>
@@ -101,13 +100,17 @@ function Navbar() {
             </Link>
           </li>
           <li>
-              <a
-                href="www.devdiariesbysammi.com"
-                className="navbar-content"
-                target="_blank"
-                rel="noreferrer"
-              > Blog</a>
-            </li>
+            <a
+              href="www.devdiariesbysammi.com"
+              alt="blog"
+              className="navbar-content"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Blog
+            </a>
+          </li>
         </ul>
       </div>
       <a
@@ -116,6 +119,7 @@ function Navbar() {
         rel="noopener noreferrer"
         onClick={closeMenu}
         className="btn btn-outline-primary"
+        // eslint-disable-next-line jsx-a11y/anchor-is-valid
       >
         My Resume
       </a>
