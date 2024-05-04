@@ -102,7 +102,7 @@ function Navbar() {
           </li>
           <li>
               <a
-                href="#"
+                href="www.devdiariesbysammi.com"
                 className="navbar-content"
                 target="_blank"
                 rel="noreferrer"
