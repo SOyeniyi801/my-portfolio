@@ -43,7 +43,7 @@
             "description": "Search for GitHub users and view their profiles with this app. Features include light/dark themes and error handling for user not found.",
             "linkTag": "View in Github",
             "url": "https://github.com/SOyeniyi801/github-api-app",
-            "projectSite": "#",
+            "projectSite": "https://github-api-app-gold.vercel.app/",
             "projectTag": "View Live Site"
         }
     ]
