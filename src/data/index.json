@@ -27,16 +27,6 @@
     ],
     "projects": [
         {
-            "id": "2",
-            "src": "./assets/placeholder-image-1.png",
-            "title": "Crypto Price Tracking",
-            "description": "Track cryptocurrency prices with this React app using the CoinGecko API. Explore trending coins, view coin details, and track market value.",
-            "linkTag": "View in Github",
-            "url": "https://github.com/SOyeniyi801/crypto-price-app",
-            "projectSite": "#",
-            "projectTag": "View Live Site"
-        },
-        {
             "id": "3",
             "src": "./assets/placeholder-image-2.png",
             "title": "Github User Search",
