@@ -113,7 +113,7 @@ function Navbar() {
         </ul>
       </div>
       <a
-        href="https://samanthaoyeniyiresume.my.canva.site/"
+        href="https://samanthaoyeniyiresume.my.canva.site/online-resume"
         target="_blank"
         rel="noopener noreferrer"
         onClick={closeMenu}
