@@ -6,7 +6,7 @@ import Home from './Pages/Home/Homescreen';
 
 function App (){
   useEffect(() => {
-    document.title = "Samantha's Portfolio";
+    document.title = "Sammi Web Dev";
   }, []);
   return (
     <div className='App'>
