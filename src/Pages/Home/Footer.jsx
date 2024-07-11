@@ -62,14 +62,6 @@ function Footer() {
                 Contact
               </Link>
             </li>
-            <li>
-              <a
-                href="http://www.devdiariesbysammi.com"
-                className="navbar-content"
-                target="_blank"
-                rel="noreferrer"
-              > Blog</a>
-            </li>
           </ul>
         </div>
         <div className="footer-social-icon">

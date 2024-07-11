@@ -2,37 +2,51 @@
     "skills": [
         {
             "id": "1",
-            "src": "./assets/html.png",
-            "title": "HTML",
-            "description": "Proficient in creating structured web pages with HTML5, ensuring accessibility, quality, and user-friendliness."
+            "src": "./assets/small_business.png",
+            "title": "Small Business Sites",
+            "description": "Empower your small business with a professional and responsive website tailored to your unique needs. From design to launch, I create user-friendly sites that help you connect with customers and grow your brand."
         },
         {
             "id": "2",
-            "src": "./assets/css.png",
-            "title": "CSS",
-            "description": "Skilled in using CSS3 to style websites, creating visually appealing layouts that are responsive."
+            "src": "./assets/website_maintenance.png",
+            "title": "Website Maintenance",
+            "description": "Keep your website fresh and engaging with comprehensive maintenance services. I handle copy and image updates, design changes, and debugging to ensure your site remains attractive, functional, and up-to-date."
         },
         {
             "id": "3",
-            "src": "./assets/javascript.png",
-            "title": "Javascript",
-            "description": "Uses JavaScript to enhance website interactivity, incorporating animations and dynamic content."
+            "src": "./assets/seo.png",
+            "title": "SEO Optimization",
+            "description": "Boost your online visibility and attract more customers with expert SEO optimization. I optimize your website's content, structure, and keywords to improve your search engine rankings and drive organic traffic."
         },
         {
             "id": "4",
-            "src": "./assets/react.png",
-            "title": "React",
-            "description": "Exploring React, with a focus on creating dynamic user interfaces and improving user experiences."
+            "src": "./assets/e_commerce.png",
+            "title": "E-commerce Websites",
+            "description": "Set up a powerful online presence with my e-commerce website services. I specialize in creating stunning, easy-to-navigate e-commerce sites using Shopify, helping you sell your products to grow and reach more customers."
         }
     ],
     "projects": [
         {
-            "id": "3",
+            "id": "1",
+            "src": "./assets/placeholder-image-1.png",
+            "title": "Agency Landing Page",
+            "description": "self-hosted on Vercel",
+            "projectSite": "https://github-api-app-gold.vercel.app/",
+            "projectTag": "View Live Site"
+        }, 
+        {
+            "id": "2",
             "src": "./assets/placeholder-image-2.png",
-            "title": "Github User Search",
-            "description": "Search for GitHub users and view their profiles with this app. Features include light/dark themes and error handling for user not found.",
-            "linkTag": "View in Github",
-            "url": "https://github.com/SOyeniyi801/github-api-app",
+            "title": "E-commerce site",
+            "description": "hosted by Shopify",
+            "projectSite": "https://github-api-app-gold.vercel.app/",
+            "projectTag": "View Live Site"
+        }, 
+        {
+            "id": "3",
+            "src": "./assets/placeholder-image.png",
+            "title": "Blog Site",
+            "description": "Hosted on Squarespace",
             "projectSite": "https://github-api-app-gold.vercel.app/",
             "projectTag": "View Live Site"
         }

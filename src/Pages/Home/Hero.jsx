@@ -12,7 +12,7 @@ function Hero (){
                         Developer
                     </h1>
                     <p className="hero-section-description">
-                    Transforming visions into dynamic and user-friendly web experiences. <br/> Junior frontend developer with a passion for crafting beautiful web experiences.
+                    Transforming visions into dynamic and user-friendly web experiences. <br/> Web developer with a passion for crafting beautiful web experiences.
                     </p> <br/>
                 </div>
                 <Link

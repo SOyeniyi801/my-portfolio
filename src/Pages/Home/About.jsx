@@ -6,22 +6,11 @@ function About() {
       </div>
       <div className="hero-section-content-box about-section-box">
         <div className="hero-section-content">
-          <p className="section-title">About</p>
           <h1 className="skills-section-heading"> About Me</h1>
           <p className="hero-section-description">
-            Hi, I'm Sammi. I'm a new freelance developer specializing in
-            creating:
-            <ul>
-              <li>Landing pages</li>
-              <li>Personal and portfolio sites</li>
-              <li>Small business websites</li>
-              <li>Simple web applications</li>
-              <li>Website content management</li>
-              <li>Website and copy update services</li>
-            </ul>
-            I'm ready to start taking on clients and help them with their
-            website needs. I am also open to contract opportunities. Feel free
-            to contact me with any questions.
+          Hi, I'm Sammi, a freelance web developer based in Atlanta, GA, specializing in websites for small businesses and entrepreneurs. I started my journey as a self-taught front-end developer intern and have spent the past five years working as a support engineer, building front-end projects on the side. I'm passionate about providing effective solutions to meet your web development needs. Let's work together to bring your vision to life!
+
+
           </p>
         </div>
       </div>

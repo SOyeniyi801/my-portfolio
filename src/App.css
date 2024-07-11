@@ -316,6 +316,10 @@ h3 {
   box-shadow: 0 0 16 0 rgba(0,0,0,0.1);
  }
 
+ .skills-section-img img {
+  width: 90px; 
+ }
+
  .skills-section-card-content {
   display: flex;
   flex-direction: column;

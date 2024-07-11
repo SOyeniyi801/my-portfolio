@@ -8,7 +8,7 @@ function Contact() {
         setResult("Sending....");
         const formData = new FormData(event.target);
     
-        formData.append("access_key", "c9587240-7ff1-4cdd-a1e0-9a08a8cf5f06");
+        formData.append("access_key", "387ecfa3-fc55-463f-868e-ac26811f1e09");
     
         const response = await fetch("https://api.web3forms.com/submit", {
           method: "POST",
@@ -20,9 +20,11 @@ function Contact() {
         if (data.success) {
           setResult("Form Submitted Successfully");
           event.target.reset();
+          setTimeout(() => setResult("Submit"), 3000)
         } else {
           console.log("Error", data);
           setResult(data.message);
+          setTimeout(() => setResult("Submit"), 3000)
         }
       };
     
@@ -57,7 +59,7 @@ function Contact() {
                             className="contact-input text-md" 
                             name="last-name" 
                             id="last-name" 
-                            required/>
+                            />
                     </label>
                     <label 
                         htmlFor="email" 
@@ -81,7 +83,7 @@ function Contact() {
                             className="contact-input text-md" 
                             name="phone-number" 
                             id="phone-number" 
-                            required/>
+                            />
                     </label>
                 </div>
                 <label 

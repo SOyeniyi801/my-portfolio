@@ -60,19 +60,7 @@ function Navbar() {
               Home
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar-active-content"
-              spy={true}
-              offset={-70}
-              duration={500}
-              to="mySkills"
-              className="navbar-content"
-            >
-              My Skills
-            </Link>
-          </li>
+
           <li>
             <Link
               onClick={closeMenu}
@@ -93,6 +81,19 @@ function Navbar() {
               spy={true}
               offset={-70}
               duration={500}
+              to="mySkills"
+              className="navbar-content"
+            >
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar-active-content"
+              spy={true}
+              offset={-70}
+              duration={500}
               to="MyProjects"
               className="navbar-content"
             >
@@ -100,28 +101,21 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <a
-              href="http://www.devdiariesbysammi.com"
+            <Link
+              onClick={closeMenu}
               activeClass="navbar-active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Contact"
               className="navbar-content"
-              target="_blank"
-              rel="noreferrer"
             >
-              Blog
-            </a>
+              Contact
+            </Link>
           </li>
         </ul>
       </div>
-      <a
-        href="https://samanthaoyeniyiresume.my.canva.site/online-resume"
-        target="_blank"
-        rel="noopener noreferrer"
-        onClick={closeMenu}
-        className="btn btn-outline-primary"
-        // eslint-disable-next-line jsx-a11y/anchor-is-valid
-      >
-        My Resume
-      </a>
     </nav>
   );
 }
