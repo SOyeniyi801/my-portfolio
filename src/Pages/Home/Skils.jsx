@@ -3,7 +3,7 @@ import data from "../../data/index.json";
 function MySkills() {
   return (
     <section className="skills-section" id="mySkills">
-      <div className="portfolio-container">
+      <div className="skills-container">
         <h2 className="skills-section-heading">Services</h2>
       </div>
       <div className="skills-section-container">

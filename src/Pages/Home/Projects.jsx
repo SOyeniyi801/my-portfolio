@@ -6,7 +6,7 @@ function Projects() {
     <section className="projects-section" id="MyProjects">
       <div className="projects-container-box">
         <div className="projects-container">
-          <h2 className="section-heading"> My Projects</h2>
+          <h2 className="projects-section-heading"> My Projects</h2>
         </div>
       </div>
       <div className="projects-section-container">

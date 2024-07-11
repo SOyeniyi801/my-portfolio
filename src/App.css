@@ -269,7 +269,12 @@ h3 {
   align-items: center;
   gap: 106.667px;
  }
-
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
  .skills-section-heading {
   color: var(--heading-color);
   font-size: 64px;
@@ -373,7 +378,7 @@ h3 {
 
  .projects-container-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
  }
@@ -386,11 +391,11 @@ h3 {
  }
 
  .projects-section-container {
-  display: flex;
-  align-items: center;
+  display: grid;
   justify-content: center;
+  align-items: flex-start;
   gap: 42.6px;
-  width: 100%;
+  grid-template-columns: repeat(4, 1fr)
  }
 
  .projects-section-img {
@@ -585,7 +590,13 @@ h3 {
     font-size: 17.333px;
     line-height: 27px;
   }
+  .projects-section-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
 }
+
 @media only screen and (max-width: 1200px) {
   .btn-outline-primary {
     display: none;
@@ -602,8 +613,8 @@ h3 {
   }
   .skills-section-container,
   .about-section,
-  .portfolio-section-container,
-  .portfolio-container-box,
+  .projects-section-container,
+  .projects-container-box,
   .footer-link-container,
   .footer-items > ul,
   .footer-content-container {
@@ -611,12 +622,18 @@ h3 {
     flex-direction: column;
   }
   .skills-section,
-  .portfolio-container,
+  .projects-container,
   .hero-section-content,
   .hero-section-content-box {
     align-items: center;
   }
-  .portfolio-container-box {
+  .projects-section-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .projects-container-box {
     gap: 30px;
   }
   .skills-section,
