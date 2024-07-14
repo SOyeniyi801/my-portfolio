@@ -30,10 +30,10 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="MyPortfolio"
+                to="MyProjects"
                 className="text-md"
               >
-                Portfolio
+                Projects
               </Link>
             </li>
             <li>
