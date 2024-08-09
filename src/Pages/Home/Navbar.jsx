@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img className="logo" src="./assets/logo.svg" alt="logo" />
+        <img className="logo" src="./assets/SammiDevLogo.png" alt="logo" />
       </div>
       <a
         className={`nav_hamburger ${navActive ? "active" : ""}`}
