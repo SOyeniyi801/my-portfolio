@@ -25,30 +25,57 @@
             "description": "Set up a powerful online presence with my e-commerce website services. I specialize in creating stunning, easy-to-navigate e-commerce sites using Shopify, helping you sell your products to grow and reach more customers."
         }
     ],
-    "projects": [
+    "designs": [
         {
             "id": "1",
-            "src": "./assets/agency_landingpage.png",
-            "title": "Agency Landing Page",
-            "description": "self-hosted on Vercel",
+            "src": "./assets/sunnyside-portfolio.png",
+            "title": "Sunnyside Landing Page",
+            "description": "self-hosted by Vercel",
             "projectSite": "https://sunnyside-agency-landing-page-beryl-seven.vercel.app/",
             "projectTag": "View Live Site"
         }, 
         {
             "id": "2",
-            "src": "./assets/ecommerce_site.png",
-            "title": "E-commerce site",
-            "description": "hosted by Shopify",
-            "projectSite": "https://bitsandfits.com/",
+            "src": "./assets/fireapp-portfolio.png",
+            "title": "Firechat App Landing Page",
+            "description": "hosted by Webflow",
+            "projectSite": "https://firechatapp.webflow.io/",
             "projectTag": "View Live Site"
         }, 
         {
             "id": "3",
-            "src": "./assets/blog_page.png",
+            "src": "./assets/teamsAppHero.png",
             "title": "Blog Site",
-            "description": "Hosted on Squarespace",
+            "description": "Hosted by Squarespace",
+            "projectSite": "https://github-api-app-gold.vercel.app/",
+            "projectTag": "View Live Site"
+        }
+    ],
+    "development": [
+        {
+            "id": "1",
+            "src": "./assets/sunnyside-portfolio.png",
+            "title": "Sunnyside Landing Page Site",
+            "description": "self-hosted by Vercel",
+            "projectSite": "https://sunnyside-agency-landing-page-beryl-seven.vercel.app/",
+            "projectTag": "View Live Site"
+        }, 
+        {
+            "id": "2",
+            "src": "./assets/fireapp-portfolio.png",
+            "title": "Firechat App Landing Page",
+            "description": "hosted by Webflow",
+            "projectSite": "https://firechatapp.webflow.io/",
+            "projectTag": "View Live Site"
+        }, 
+        {
+            "id": "3",
+            "src": "./assets/teamsAppHero.png",
+            "title": "Blog Site",
+            "description": "Hosted by Squarespace",
             "projectSite": "https://github-api-app-gold.vercel.app/",
             "projectTag": "View Live Site"
         }
     ]
+
 }
