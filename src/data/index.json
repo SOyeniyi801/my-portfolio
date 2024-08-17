@@ -44,7 +44,7 @@
         }, 
         {
             "id": "3",
-            "src": "./assets/teamsAppHero.png",
+            "src": "./assets/teamsApp-portfolio.png",
             "title": "Blog Site",
             "description": "Hosted by Squarespace",
             "projectSite": "https://github-api-app-gold.vercel.app/",
@@ -70,9 +70,9 @@
         }, 
         {
             "id": "3",
-            "src": "./assets/teamsAppHero.png",
-            "title": "Blog Site",
-            "description": "Hosted by Squarespace",
+            "src": "./assets/teamsApp-portfolio.png",
+            "title": "Teams App Blog Site",
+            "description": "Hosted by Webflow",
             "projectSite": "https://github-api-app-gold.vercel.app/",
             "projectTag": "View Live Site"
         }

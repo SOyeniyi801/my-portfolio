@@ -174,6 +174,7 @@ h3 {
   top: 0;
   left: 0;
   right: 0; 
+  z-index: 3;
 }
 
 .navbar-items > ul{
@@ -510,6 +511,8 @@ h3 {
   width: 40%;
   background-color: var(--bg-shade);
   padding: 20px 15px;
+  justify-content: center;
+  align-items: center;
  }
 
 .project-content {
@@ -718,10 +721,11 @@ h3 {
   .hero-section-content-box {
     align-items: center;
   }
-  .projects-section-container{
+  .project-content{
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-direction: column;
   }
   
   .projects-container-box {
