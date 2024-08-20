@@ -38,7 +38,7 @@
         {
             "id": "2",
             "src": "./assets/fireapp-portfolio.png",
-            "popoutSrc": "./assets/enlargedFireChat.png",
+            "popoutSrc": "./assets/enlargedFirechat.png",
             "title": "Firechat App Landing Page",
             "description": "hosted by Webflow",
             "projectSite": "https://firechatapp.webflow.io/",
