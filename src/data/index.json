@@ -2,34 +2,34 @@
     "skills": [
         {
             "id": "1",
-            "src": "./assets/small_business.png",
+            "src": "./assets/small-business.png",
             "title": "Small Business Sites",
             "description": "Empower your small business with a professional and responsive website tailored to your unique needs. From design to launch, I create user-friendly sites that help you connect with customers and grow your brand."
         },
         {
             "id": "2",
-            "src": "./assets/website_maintenance.png",
+            "src": "./assets/landing-pages.png",
+            "title": "Single Page Websites",
+            "description": "Create an impact with a single-page website that captures attention and delivers key information fast. I design responsive, appealing single-page sites that highlight your brand's essence. I'll ensure your site is both engaging and effective."
+        },
+        {
+            "id": "3",
+            "src": "./assets/web-maintenance.png",
             "title": "Website Maintenance",
             "description": "Keep your website fresh and engaging with comprehensive maintenance services. I handle copy and image updates, design changes, and debugging to ensure your site remains attractive, functional, and up-to-date."
         },
         {
-            "id": "3",
-            "src": "./assets/seo.png",
-            "title": "SEO Optimization",
-            "description": "Boost your online visibility and attract more customers with expert SEO optimization. I optimize your website's content, structure, and keywords to improve your search engine rankings and drive organic traffic."
-        },
-        {
             "id": "4",
-            "src": "./assets/e_commerce.png",
-            "title": "E-commerce Websites",
-            "description": "Set up a powerful online presence with my e-commerce website services. I specialize in creating stunning, easy-to-navigate e-commerce sites using Shopify, helping you sell your products to grow and reach more customers."
+            "src": "./assets/web-design.png",
+            "title": "Website Design",
+            "description": "Elevate your brand's online presence with custom web design that captivates. I create visually stunning, websites that reflect your unique brand identity. Every element is carefully crafted to engage your audience and drive business growth."
         }
     ],
     "designs": [
         {
             "id": "1",
-            "src": "./assets/sunnyside-portfolio.png",
-            "title": "Sunnyside Landing Page",
+            "src": "./assets/linktree-portfolio.png",
+            "title": "Content Hub Landing Page",
             "description": "self-hosted by Vercel",
             "projectSite": "https://sunnyside-agency-landing-page-beryl-seven.vercel.app/",
             "projectTag": "View Live Site"
@@ -45,7 +45,7 @@
         {
             "id": "3",
             "src": "./assets/teamsApp-portfolio.png",
-            "title": "Blog Site",
+            "title": "Teams App Blog Site",
             "description": "Hosted by Squarespace",
             "projectSite": "https://github-api-app-gold.vercel.app/",
             "projectTag": "View Live Site"
@@ -54,8 +54,8 @@
     "development": [
         {
             "id": "1",
-            "src": "./assets/sunnyside-portfolio.png",
-            "title": "Sunnyside Landing Page Site",
+            "src": "./assets/linktree-portfolio.png",
+            "title": "Content Hub Landing Page",
             "description": "self-hosted by Vercel",
             "projectSite": "https://sunnyside-agency-landing-page-beryl-seven.vercel.app/",
             "projectTag": "View Live Site"

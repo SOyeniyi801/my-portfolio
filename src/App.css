@@ -295,7 +295,7 @@ h3 {
   display: flex;
   padding: 32px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 32px;
   flex: 1 0 0;
   border-radius: 10.6px;
@@ -315,7 +315,7 @@ h3 {
   display: flex;
   padding: 13.3px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 13.3px;
   border-radius: 10.6px;
   background:var(--white) ;
@@ -513,6 +513,10 @@ h3 {
   padding: 20px 15px;
   justify-content: center;
   align-items: center;
+ }
+
+ .projects-section-title {
+  text-align: center;
  }
 
 .project-content {
@@ -720,6 +724,9 @@ h3 {
   .hero-section-content,
   .hero-section-content-box {
     align-items: center;
+  }
+  .projects-section-title{
+    text-align: left;
   }
   .project-content{
     display: flex;
