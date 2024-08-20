@@ -29,6 +29,7 @@
         {
             "id": "1",
             "src": "./assets/linktree-portfolio.png",
+            "popoutSrc": "./assets/enlargedLinktree.png",
             "title": "Content Hub Landing Page",
             "description": "self-hosted by Vercel",
             "projectSite": "https://sunnyside-agency-landing-page-beryl-seven.vercel.app/",
@@ -37,6 +38,7 @@
         {
             "id": "2",
             "src": "./assets/fireapp-portfolio.png",
+            "popoutSrc": "./assets/enlargedFireChat.png",
             "title": "Firechat App Landing Page",
             "description": "hosted by Webflow",
             "projectSite": "https://firechatapp.webflow.io/",
@@ -45,6 +47,7 @@
         {
             "id": "3",
             "src": "./assets/teamsApp-portfolio.png",
+            "popoutSrc": "./assets/enlargedTeamChat.png",
             "title": "Teams App Blog Site",
             "description": "Hosted by Squarespace",
             "projectSite": "https://github-api-app-gold.vercel.app/",

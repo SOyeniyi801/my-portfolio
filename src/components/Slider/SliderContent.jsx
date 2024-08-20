@@ -1,14 +1,25 @@
 import React from "react";
 import data from "../../data/index.json";
+import PopoutModal from '../PopoutModal/PopoutModal';
+import { useState } from "react";
+
 
 function SliderContent({ selectedTab }) {
+  const [modalOpen, setModalOpen] = useState(false)
+  const [selectedImage, setSelectedImage] = useState('')
+
+  const handleImageClick = (src) => {
+    setSelectedImage(src)
+    setModalOpen(true)
+  }
   return (
-    <section className="projects-slider-section">
+    <>
+     <section className="projects-slider-section">
       {selectedTab === "designs" && (
         <div className="content content-1">
           <div className="project-content">
             {data?.designs?.map((item, index) => (
-              <div key={index} className="projects-section-card">
+              <div key={index} className="projects-section-card" onClick={() => handleImageClick(item.popoutSrc)}>
                 <div className="project-dev-img">
                   <img src={item.src} alt="Placeholder" />
                   <h3 className="projects-section-title">{item.title}</h3>
@@ -37,6 +48,9 @@ function SliderContent({ selectedTab }) {
         </div>
       )}
     </section>
+    {modalOpen && <PopoutModal isOpen={modalOpen} onClose={() => setModalOpen(false)} imageSrc={selectedImage} />}
+    </>
+   
   );
 }
 
