@@ -622,6 +622,7 @@ h3 {
     align-items: flex-start;
     gap: 42.667px;
     text-decoration: none;
+    cursor: pointer;
   }
   .footer-items ul > li > a {
     text-decoration: none;
