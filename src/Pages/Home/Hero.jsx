@@ -25,7 +25,7 @@ function Hero (){
                 to="Contact"
                 className="btn btn-primary"
                 > 
-                    Contact Me </Link>
+                    Hire Me </Link>
             </div>
             <div className="hero-section-image">
                 <img src="./assets/hero-image.png" alt="Hero Section" />
