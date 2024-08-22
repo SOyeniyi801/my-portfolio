@@ -30,7 +30,7 @@
             "id": "1",
             "src": "./assets/linktree-portfolio.png",
             "popoutSrc": "./assets/enlargedLinktree.png",
-            "title": "Content Hub Landing Page",
+            "title": "Link Hub Landing Page",
             "description": "self-hosted by Vercel",
             "projectSite": "https://sunnyside-agency-landing-page-beryl-seven.vercel.app/",
             "projectTag": "View Live Site"
@@ -58,7 +58,7 @@
         {
             "id": "1",
             "src": "./assets/linktree-portfolio.png",
-            "title": "Content Hub Landing Page",
+            "title": "Link Hub Landing Page",
             "description": "self-hosted by Vercel",
             "projectSite": "https://sunnyside-agency-landing-page-beryl-seven.vercel.app/",
             "projectTag": "View Live Site"
@@ -73,10 +73,10 @@
         }, 
         {
             "id": "3",
-            "src": "./assets/teamsApp-portfolio.png",
-            "title": "Teams App Blog Site",
-            "description": "Hosted by Webflow",
-            "projectSite": "https://github-api-app-gold.vercel.app/",
+            "src": "./assets/nft-portfolio.png",
+            "title": "NFT Card Component",
+            "description": "Hosted by Vercel",
+            "projectSite": "https://nft-card-component-iota.vercel.app/",
             "projectTag": "View Live Site"
         }
     ]
