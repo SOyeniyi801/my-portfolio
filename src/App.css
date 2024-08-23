@@ -704,6 +704,7 @@ h3 {
   .nav_hamburger {
     display: flex;
     z-index: 200;
+    right: 70px;
   }
   .navbar-items {
     display: flex;
