@@ -609,6 +609,11 @@ h3 {
 
 /* Consolidated Media Queries */
 @media only screen and (max-width: 768px) {
+
+  .skills-section-card {
+    min-width: 320px;
+    padding: 15px;
+  }
   .projects-grid {
     display: flex;
     flex-direction: column; /* Stack items vertically */
@@ -645,6 +650,21 @@ h3 {
   .footer-items > ul {
     padding: 0;
     align-items: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .contact-section {
+    padding: 80px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .contact-form-container {
+    width: 90%; /* Make form container take more width on small screens */
+    row-gap: 24px; /* Adjust the gap between rows */
+  }
+
+  .contact-input {
+    font-size: 14px; /* Slightly reduce font size for inputs */
+    padding: 12px; /* Reduce padding for inputs */
   }
 }
 
