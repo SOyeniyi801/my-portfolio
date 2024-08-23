@@ -1,21 +1,32 @@
 import React, { useState } from 'react';
-import SliderControls from '../../components/Slider/SliderControls'; 
-import SliderContent from '../../components/Slider/SliderContent'; 
+import Card from '../../components/Card';
+import PopoutModal from '../../components/PopoutModal/PopoutModal';
+import data from '../../data/index.json';
 
-function Projects({ data }) {
-  const [selectedTab, setSelectedTab] = useState('designs');
+function Projects() {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalImageSrc, setModalImageSrc] = useState('');
+
+  const handleImageClick = (src) => {
+    setModalImageSrc(src);
+    setModalOpen(true);
+  };
 
   return (
     <section className="projects-section" id="MyProjects">
       <div className="projects-container-box">
         <div className="projects-container">
-          <h2 className="projects-section-heading"> My Projects</h2>
+          <h2 className="projects-section-heading">My Projects</h2>
         </div>
       </div>
       <div className="projects-section-container">
-        <SliderControls onSelect={setSelectedTab} />
-        <SliderContent selectedTab={selectedTab} data={data} />
+        <div className="projects-grid">
+          {data.projects.map(project => (
+            <Card key={project.id} project={project} onImageClick={handleImageClick} />
+          ))}
+        </div>
       </div>
+      <PopoutModal isOpen={modalOpen} onClose={() => setModalOpen(false)} imageSrc={modalImageSrc} />
     </section>
   );
 }

@@ -25,14 +25,14 @@
             "description": "Elevate your brand's online presence with custom web design that captivates. I create visually stunning, websites that reflect your unique brand identity. Every element is carefully crafted to engage your audience and drive business growth."
         }
     ],
-    "designs": [
+    "projects": [
         {
             "id": "1",
             "src": "./assets/linktree-portfolio.png",
             "popoutSrc": "./assets/enlargedLinktree.png",
             "title": "Link Hub Landing Page",
             "description": "self-hosted by Vercel",
-            "projectSite": "https://sunnyside-agency-landing-page-beryl-seven.vercel.app/",
+            "projectSite": "https://linkhub-app.vercel.app/",
             "projectTag": "View Live Site"
         }, 
         {
@@ -44,36 +44,11 @@
             "projectSite": "https://firechatapp.webflow.io/",
             "projectTag": "View Live Site"
         }, 
-        {
-            "id": "3",
-            "src": "./assets/teamsApp-portfolio.png",
-            "popoutSrc": "./assets/enlargedTeamChat.png",
-            "title": "Teams App Blog Site",
-            "description": "Hosted by Squarespace",
-            "projectSite": "https://github-api-app-gold.vercel.app/",
-            "projectTag": "View Live Site"
-        }
-    ],
-    "development": [
-        {
-            "id": "1",
-            "src": "./assets/linktree-portfolio.png",
-            "title": "Link Hub Landing Page",
-            "description": "self-hosted by Vercel",
-            "projectSite": "https://sunnyside-agency-landing-page-beryl-seven.vercel.app/",
-            "projectTag": "View Live Site"
-        }, 
-        {
-            "id": "2",
-            "src": "./assets/fireapp-portfolio.png",
-            "title": "Firechat App Landing Page",
-            "description": "hosted by Webflow",
-            "projectSite": "https://firechatapp.webflow.io/",
-            "projectTag": "View Live Site"
-        }, 
+       
         {
             "id": "3",
             "src": "./assets/nft-portfolio.png",
+            "popoutSrc": "./assets/enlargedNFT.png",
             "title": "NFT Card Component",
             "description": "Hosted by Vercel",
             "projectSite": "https://nft-card-component-iota.vercel.app/",
