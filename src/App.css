@@ -222,7 +222,7 @@ h3 {
 .hero-section-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 21.333px;
 }
 
@@ -578,6 +578,10 @@ h3 {
     display: flex;
     flex-direction: column-reverse;
     padding-bottom: 70px;
+  }
+
+  .hero-section-content {
+    align-items: center;
   }
 
   .hero-section-content-box{
