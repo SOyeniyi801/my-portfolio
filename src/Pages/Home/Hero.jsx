@@ -28,7 +28,7 @@ function Hero (){
                     Hire Me </Link>
             </div>
             <div className="hero-section-image">
-                <img src="./assets/hero-image.png" alt="Hero Section" />
+                <img src="./assets/freelance-web-developer-atlanta-sammi-heroimage.png" alt="Hero Section" />
             </div>
         </section>
     )

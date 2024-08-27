@@ -2,25 +2,25 @@
     "skills": [
         {
             "id": "1",
-            "src": "./assets/small-business.png",
+            "src": "./assets/freelance-web-developer-atlanta-sammi-small-business.png",
             "title": "Small Business Websites",
             "description": "Empower your small business with a professional and responsive website tailored to your unique needs. From design to launch, I create user-friendly sites that help you connect with customers and grow your brand."
         },
         {
             "id": "2",
-            "src": "./assets/landing-pages.png",
+            "src": "./assets/freelance-web-developer-atlanta-sammi-landing-pages.png",
             "title": "Single Page Websites",
             "description": "Create an impact with a single-page website that captures attention and delivers key information fast. I design responsive, appealing single-page sites that highlight your brand's essence. I'll ensure your site is both engaging and effective."
         },
         {
             "id": "3",
-            "src": "./assets/web-maintenance.png",
+            "src": "./assets/freelance-web-developer-atlanta-sammi-web-maintenance.png",
             "title": "Website Maintenance",
             "description": "Keep your website fresh and engaging with comprehensive maintenance services. I handle copy and image updates, design changes, and debugging to ensure your site remains attractive, functional, and up-to-date."
         },
         {
             "id": "4",
-            "src": "./assets/web-design.png",
+            "src": "./assets/freelance-web-developer-atlanta-sammi-web-design.png",
             "title": "Website Design",
             "description": "Elevate your brand's online presence with custom web design that captivates. I create visually stunning, websites that reflect your unique brand identity. Every element is carefully crafted to engage your audience and drive business growth."
         }
@@ -28,8 +28,8 @@
     "projects": [
         {
             "id": "1",
-            "src": "./assets/linktree-portfolio.png",
-            "popoutSrc": "./assets/enlargedLinktree.png",
+            "src": "./assets/freelance-web-developer-atlanta-sammi-linktree-portfolio.png",
+            "popoutSrc": "./assets/freelance-web-developer-atlanta-sammi-enlargedLinktree.png",
             "title": "Link Hub Landing Page",
             "description": "self-hosted by Vercel",
             "projectSite": "https://linkhub-app.vercel.app/",
@@ -37,8 +37,8 @@
         }, 
         {
             "id": "2",
-            "src": "./assets/fireapp-portfolio.png",
-            "popoutSrc": "./assets/enlargedFirechat.png",
+            "src": "./assets/freelance-web-developer-atlanta-sammi-fireapp-portfolio.png",
+            "popoutSrc": "./assets/freelance-web-developer-atlanta-sammi-enlargedFirechat.png",
             "title": "Firechat App Landing Page",
             "description": "hosted by Webflow",
             "projectSite": "https://firechatapp.webflow.io/",
@@ -47,8 +47,8 @@
        
         {
             "id": "3",
-            "src": "./assets/nft-portfolio.png",
-            "popoutSrc": "./assets/enlargedNFT.png",
+            "src": "./assets/freelance-web-developer-atlanta-sammi-nft-portfolio.png",
+            "popoutSrc": "./assets/freelance-web-developer-atlanta-sammi-enlargedNFT.png",
             "title": "NFT Card Component",
             "description": "Hosted by Vercel",
             "projectSite": "https://nft-card-component-iota.vercel.app/",
