@@ -200,6 +200,10 @@ h3 {
 .navbar-active-content {
   color: var(--primary);
 }
+.nav_hamburger {
+  background-color: #ffffff;
+  border: none;
+}
 /* Navbar Style End */
 
 /* Hero Section Style */
