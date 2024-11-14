@@ -28,11 +28,11 @@
     "projects": [
         {
             "id": "1",
-            "src": "./assets/freelance-web-developer-atlanta-sammi-linktree-portfolio.png",
-            "popoutSrc": "./assets/freelance-web-developer-atlanta-sammi-enlargedLinktree.png",
-            "title": "Link Hub Landing Page",
-            "description": "self-hosted by Vercel",
-            "projectSite": "https://linkhub-app.vercel.app/",
+            "src": "./assets/freelance-web-developer-atlanta-sammi-waveysworld-enlarged.png",
+            "popoutSrc": "./assets/freelance-web-developer-atlanta-sammi-waveysworld-portfolio.png",
+            "title": "Wavey's World Website",
+            "description": "self-hosted by Webflow",
+            "projectSite": "https://www.waveysworld.com/",
             "projectTag": "View Live Site"
         }, 
         {
@@ -47,11 +47,11 @@
        
         {
             "id": "3",
-            "src": "./assets/freelance-web-developer-atlanta-sammi-nft-portfolio.png",
-            "popoutSrc": "./assets/freelance-web-developer-atlanta-sammi-enlargedNFT.png",
-            "title": "NFT Card Component",
-            "description": "Hosted by Vercel",
-            "projectSite": "https://nft-card-component-iota.vercel.app/",
+            "src": "./assets/freelance-web-developer-atlanta-sammi-techwoke-portfolio.png",
+            "popoutSrc": "./assets/freelance-web-developer-atlanta-sammi-techwoke-enlarged.png",
+            "title": "Tech Woke Podcast Website",
+            "description": "Hosted by Wix",
+            "projectSite": "https://www.techwokepodcast.com/",
             "projectTag": "View Live Site"
         }
     ]
