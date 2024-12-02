@@ -5,7 +5,7 @@ import Projects from "../Projects";
 import Contact from "../Contact";
 import Footer from "../Footer";
 import Graphics from "../Graphics";
-import Videos from "../Videos";
+// import Videos from "../Videos";
 
 function Home (){
     return (
@@ -15,7 +15,6 @@ function Home (){
          <Skills />
          <Projects />
          <Graphics />
-         <Videos />
          <Contact />
          <Footer />
         </> 

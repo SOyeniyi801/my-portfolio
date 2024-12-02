@@ -26,7 +26,7 @@ function Graphics() {
           ))}
         </div>
       </div>
-      {/* <PopoutModal isOpen={modalOpen} onClose={() => setModalOpen(false)} imageSrc={modalImageSrc} /> */}
+      <PopoutModal isOpen={modalOpen} onClose={() => setModalOpen(false)} imageSrc={modalImageSrc} />
     </section>
   );
 }
