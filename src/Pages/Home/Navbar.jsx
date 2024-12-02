@@ -145,7 +145,7 @@ function Navbar() {
       </Link>
     </li>
     <li>
-      <Link
+      {/* <Link
         onClick={closeMenu}
         activeClass="navbar-active-content"
         spy={true}
@@ -155,7 +155,7 @@ function Navbar() {
         className="navbar-content"
       >
         Video Editing
-      </Link>
+      </Link> */}
     </li>
   </ul>
 </li>
