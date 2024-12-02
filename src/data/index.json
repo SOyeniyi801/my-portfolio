@@ -54,6 +54,46 @@
             "projectSite": "https://www.techwokepodcast.com/",
             "projectTag": "View Live Site"
         }
-    ]
+    ],
+    "graphics": [
+        {
+            "id": "1",
+            "src": "./assets/black-friday-sale-promotional-graphic.png",
+            "title": "Black Friday Social Media Graphic",
+            "description": "An eye-catching Black Friday graphic created to highlight major sales and promotions. Designed for maximum engagement, it combines dark tones with bold call-to-action elements for an impactful online presence."
+        },
+        {
+            "id": "2",
+            "src": "./assets/cleaning-services-social-media-post.gif",
+            "title": "Promotional Graphic for Cleaning Services",
+            "description": "A vibrant and engaging promotional graphic for cleaning services, highlighting a limited-time offer with a clean design and pastel color palette. Ideal for social media marketing to attract new customers and promote service discounts."
+        },
+        {
+            "id": "3",
+            "src": "./assets/cyber-monday-sale-promotional-graphic.gif",
+            "title": "Cyber Monday Sale",
+            "description": "A bold and dynamic Cyber Monday sale graphic designed to boost online sales. Featuring attention-grabbing typography and a sleek layout, this graphic is tailored for driving traffic during the holiday shopping season."
+        }
+    ], 
+    "videos": [
+    {
+        "id": "1",
+        "src": "./assets/techsgiving-outfits.mp4",
+        "title": "Tech Summit Promo: with Sound Effects",
+        "description": "A high-energy promotional video for a tech summit, featuring creative wall-scrolling visuals and dynamic sound effects. Designed to captivate audiences and drive interest in the event."
+    },
+    {
+        "id": "2",
+        "src": "./assets/intro-video-unemployed.mp4",
+        "title": "Creative TikTok Intro with Body Double Effect",
+        "description": "An engaging and dynamic TikTok intro featuring a seamless body double effect. This video highlights editing skills, creativity, and the ability to produce captivating short-form content for social media."
+    },
+    {
+        "id": "3",
+        "src": "./assets/best-friend-edited.mp4",
+        "title": "Humorous Tech Skit: Me and My Laptop",
+        "description": "A lighthearted and relatable tech skit featuring a playful interaction between me and my laptop. Designed to showcase creativity and humor, perfect for engaging tech audiences on social media."
+    }
+]
 
 }

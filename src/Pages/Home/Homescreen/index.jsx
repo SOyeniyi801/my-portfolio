@@ -4,6 +4,8 @@ import About from "../About";
 import Projects from "../Projects";
 import Contact from "../Contact";
 import Footer from "../Footer";
+import Graphics from "../Graphics";
+import Videos from "../Videos";
 
 function Home (){
     return (
@@ -12,9 +14,10 @@ function Home (){
          <About />
          <Skills />
          <Projects />
+         <Graphics />
+         <Videos />
          <Contact />
          <Footer />
-         
         </> 
     )
 }

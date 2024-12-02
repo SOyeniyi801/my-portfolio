@@ -1,4 +1,4 @@
-/* Global CSS */
+Global CSS */
 
 body {
   margin: 0;
@@ -204,6 +204,61 @@ h3 {
   background-color: #ffffff;
   border: none;
 }
+
+/* Dropdown Styles */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Place below the parent */
+  left: 0;
+  display: none; /* Initially hidden */
+  list-style: none;
+  background-color: var(--white);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  margin: 0;
+  border-radius: 5px;
+  z-index: 3;
+}
+
+.dropdown-menu li {
+  padding: 5px 20px;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: var(--darkblue);
+  font-size: 14px;
+}
+
+.dropdown-menu li a:hover {
+  color: var(--primary);
+}
+
+/* Show dropdown on toggle */
+.dropdown-menu.active {
+  display: block;
+}
+/* Caret Styles */
+.caret {
+  margin-left: 8px;
+  font-size: 12px;
+  color: var(--darkblue);
+  transition: transform 0.3s ease;
+}
+
+.dropdown-toggle.active .caret {
+  color: var(--primary);
+}
+
 /* Navbar Style End */
 
 /* Hero Section Style */
@@ -430,8 +485,121 @@ h3 {
 }
 
 /* Projects Section Ends */
+.graphics-section {
+  display: flex;
+  padding: 112px 85px;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
 
-/* Contacr Section Style */
+.graphics-section-heading {
+  color: var(--heading-color);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+}
+
+.graphics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  width: 100%;
+}
+
+.graphics-card {
+  border-radius: 10px;
+  background-color: var(--bg-shade);
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.graphics-card:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.graphics-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.graphics-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin: 8px 0;
+}
+
+.graphics-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--darkblue);
+  line-height: 24px;
+}
+/* Graphics end */
+
+/* Videos section */
+.videos-section {
+  display: flex;
+  padding: 112px 85px;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.videos-section-heading {
+  color: var(--heading-color);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+}
+
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  width: 100%;
+}
+
+.video-card {
+  border-radius: 10px;
+  background-color: var(--bg-shade);
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-card:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.video-card video {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.video-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin: 8px 0;
+}
+
+.video-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--darkblue);
+  line-height: 24px;
+}
+/* Video End */
+
+/* Contact Section Style */
 
 .contact-section {
   display: flex;
@@ -617,7 +785,71 @@ h3 {
   .navbar-items.active {
     top: 30px;
   }
+
+  .graphics-grid, .videos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* General Navbar Adjustments for Mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  .navbar-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .navbar-items ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .dropdown {
+    width: 100%; /* Ensure dropdown takes full width */
+  }
+
+  .dropdown-menu {
+    position: static; /* Remove absolute positioning */
+    display: none; /* Hide by default */
+    flex-direction: column;
+    width: 100%; /* Take full width */
+    padding: 0;
+    background-color: transparent; /* Match the navbar background */
+    box-shadow: none; /* Remove box shadow */
+  }
+
+  .dropdown-menu.active {
+    display: flex; /* Show dropdown when active */
+  }
+
+  .dropdown-menu li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%; /* Ensure items stretch fully */
+  }
+
+  .dropdown-toggle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+
+  .caret {
+    margin-left: auto; /* Push caret to the far right */
+  }
 }
+
+}
+
 
 /* Consolidated Media Queries */
 @media only screen and (max-width: 768px) {
@@ -668,6 +900,10 @@ h3 {
   .footer-items > ul {
     padding: 0;
     align-items: center;
+  }
+
+  .graphics-grid, .videos-grid {
+    grid-template-columns: 1fr;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -760,4 +996,4 @@ h3 {
   }
 }
 
-/* Responsive Screens Ends*/
+ /* Responsive Screens Ends */
