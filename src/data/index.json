@@ -60,19 +60,25 @@
             "id": "1",
             "src": "./assets/black-friday-sale-promotional-graphic.png",
             "title": "Black Friday Social Media Graphic",
-            "description": "An eye-catching Black Friday graphic created to highlight major sales and promotions. Designed for maximum engagement, it combines dark tones with bold call-to-action elements for an impactful online presence."
+            "description": "An eye-catching Black Friday graphic created to highlight major sales and promotions. Designed for maximum engagement, it combines dark tones with bold call-to-action elements for an impactful online presence.", 
+            "projectTag": "View Live",
+            "projectSite": "https://www.canva.com/design/DAGXjT9ubN8/ZzLfftUPYLYv9tQdf2Dx4A/watch?utm_content=DAGXjT9ubN8&utm_campaign=designshare&utm_medium=link&utm_source=editor"
         },
         {
             "id": "2",
-            "src": "./assets/cleaning-services-social-media-post.gif",
+            "src": "./assets/cleaning-services-social-media-post.png",
             "title": "Promotional Graphic for Cleaning Services",
-            "description": "A vibrant and engaging promotional graphic for cleaning services, highlighting a limited-time offer with a clean design and pastel color palette. Ideal for social media marketing to attract new customers and promote service discounts."
+            "description": "A vibrant and engaging promotional graphic for cleaning services, highlighting a limited-time offer with a clean design and pastel color palette. Ideal for social media marketing to attract new customers and promote service discounts.", 
+            "projectTag": "View Live",
+            "projectSite": "https://www.canva.com/design/DAGXoVUe_YQ/99bcf2VLX_knQOaq6yO5Sg/watch?utm_content=DAGXoVUe_YQ&utm_campaign=designshare&utm_medium=link&utm_source=editor"
         },
         {
             "id": "3",
-            "src": "./assets/cyber-monday-sale-promotional-graphic.gif",
+            "src": "./assets/black-friday-sale-promotional-graphic.png",
             "title": "Cyber Monday Sale",
-            "description": "A bold and dynamic Cyber Monday sale graphic designed to boost online sales. Featuring attention-grabbing typography and a sleek layout, this graphic is tailored for driving traffic during the holiday shopping season."
+            "description": "A bold and dynamic Cyber Monday sale graphic designed to boost online sales. Featuring attention-grabbing typography and a sleek layout, this graphic is tailored for driving traffic during the holiday shopping season.", 
+            "projectTag": "View Live",
+            "projectSite": "https://www.canva.com/design/DAGYM4uTig8/kckTUGARfF0qdjDLWvxB7A/watch?utm_content=DAGYM4uTig8&utm_campaign=designshare&utm_medium=link&utm_source=editor"
         }
     ], 
     "videos": [
