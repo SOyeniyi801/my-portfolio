@@ -59,6 +59,7 @@
         {
             "id": "1",
             "src": "./assets/black-friday-sale-promotional-graphic.png",
+            "popoutSrc": "./assets/black-friday-sale-promotional-graphic.png",
             "title": "Black Friday Social Media Graphic",
             "description": "An eye-catching Black Friday graphic created to highlight major sales and promotions. Designed for maximum engagement, it combines dark tones with bold call-to-action elements for an impactful online presence.", 
             "projectTag": "View Live",
@@ -67,6 +68,7 @@
         {
             "id": "2",
             "src": "./assets/cleaning-services-social-media-post.png",
+            "popoutSrc": "./assets/cleaning-services-social-media-post.png",
             "title": "Promotional Graphic for Cleaning Services",
             "description": "A vibrant and engaging promotional graphic for cleaning services, highlighting a limited-time offer with a clean design and pastel color palette. Ideal for social media marketing to attract new customers and promote service discounts.", 
             "projectTag": "View Live",
@@ -75,6 +77,7 @@
         {
             "id": "3",
             "src": "./assets/cyber-monday-sale-promotional-graphic.png",
+            "popoutSrc": "./assets/cyber-monday-sale-promotional-graphic.png",
             "title": "Cyber Monday Sale",
             "description": "A bold and dynamic Cyber Monday sale graphic designed to boost online sales. Featuring attention-grabbing typography and a sleek layout, this graphic is tailored for driving traffic during the holiday shopping season.", 
             "projectTag": "View Live",
