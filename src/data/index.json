@@ -29,7 +29,7 @@
         {
             "id": "1",
             "src": "./assets/freelance-web-developer-atlanta-sammi-waveysworld-enlarged.png",
-            "popoutSrc": "./assets/freelance-web-developer-atlanta-sammi-waveysworld-portfolio.png",
+            "popoutSrc": "./assets/freelance-web-developer-atlanta-sammi-waveysworld-enlarged-1.png",
             "title": "Wavey's World Website",
             "description": "self-hosted by Webflow",
             "projectSite": "https://www.waveysworld.com/",
@@ -70,7 +70,7 @@
         },
         {
             "id": "3",
-            "src": "./assets/cyber-monday-sale-promotional-graphic.gif",
+            "src": "./assets/wig-company-promotional-flyer.gif",
             "title": "Cyber Monday Sale",
             "description": "A bold and dynamic Cyber Monday sale graphic designed to boost online sales. Featuring attention-grabbing typography and a sleek layout, this graphic is tailored for driving traffic during the holiday shopping season."
         }

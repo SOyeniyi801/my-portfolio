@@ -162,6 +162,7 @@ h3 {
 .logo {
   width: 90px;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -176,16 +177,44 @@ h3 {
   z-index: 3;
 }
 
+.navbar-items {
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: var(--white);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100; /* Ensure it appears above other content */
+  padding: 2rem 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.navbar-items.active {
+  display: flex; /* Show when active */
+  top: 60px; /* Adjust to show below the navbar */
+}
+
 .navbar-items > ul {
   list-style: none;
   display: flex;
-  align-items: flex-start;
-  gap: 30px;
-  text-decoration: none;
+  flex-direction: column; /* Stack items vertically for dropdowns */
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
 }
 
-.navbar-items ul > li > a {
+.navbar-items ul li {
+  text-align: center;
+  width: 100%; /* Ensure items take full width */
+}
+
+.navbar-items ul li a {
   text-decoration: none;
+  padding: 0.5rem; /* Add padding for better click area */
 }
 
 .navbar-content {
@@ -200,63 +229,37 @@ h3 {
 .navbar-active-content {
   color: var(--primary);
 }
+
 .nav_hamburger {
-  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: none;
   border: none;
-}
-
-/* Dropdown Styles */
-.dropdown {
-  position: relative;
-}
-
-.dropdown-toggle {
   cursor: pointer;
-  position: relative;
+  z-index: 300; /* Ensure it appears above navbar-items */
 }
 
-.dropdown-menu {
-  position: absolute;
-  top: 100%; /* Place below the parent */
-  left: 0;
-  display: none; /* Initially hidden */
-  list-style: none;
-  background-color: var(--white);
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 10px 0;
-  margin: 0;
+.nav_hamburger_line {
+  width: 100%;
+  height: 3px;
+  background-color: var(--black);
   border-radius: 5px;
-  z-index: 3;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.dropdown-menu li {
-  padding: 5px 20px;
+.nav_hamburger.active .nav_hamburger_line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
 }
 
-.dropdown-menu li a {
-  text-decoration: none;
-  color: var(--darkblue);
-  font-size: 14px;
+.nav_hamburger.active .nav_hamburger_line:nth-child(2) {
+  opacity: 0;
 }
 
-.dropdown-menu li a:hover {
-  color: var(--primary);
-}
-
-/* Show dropdown on toggle */
-.dropdown-menu.active {
-  display: block;
-}
-/* Caret Styles */
-.caret {
-  margin-left: 8px;
-  font-size: 12px;
-  color: var(--darkblue);
-  transition: transform 0.3s ease;
-}
-
-.dropdown-toggle.active .caret {
-  color: var(--primary);
+.nav_hamburger.active .nav_hamburger_line:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
 }
 
 /* Navbar Style End */
@@ -811,41 +814,11 @@ h3 {
     gap: 10px;
   }
 
-  .dropdown {
-    width: 100%; /* Ensure dropdown takes full width */
-  }
+  
+  
 
-  .dropdown-menu {
-    position: static; /* Remove absolute positioning */
-    display: none; /* Hide by default */
-    flex-direction: column;
-    width: 100%; /* Take full width */
-    padding: 0;
-    background-color: transparent; /* Match the navbar background */
-    box-shadow: none; /* Remove box shadow */
-  }
+  
 
-  .dropdown-menu.active {
-    display: flex; /* Show dropdown when active */
-  }
-
-  .dropdown-menu li {
-    padding: 10px 0;
-    border-bottom: 1px solid #e0e0e0;
-    width: 100%; /* Ensure items stretch fully */
-  }
-
-  .dropdown-toggle {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 10px 0;
-    cursor: pointer;
-  }
-
-  .caret {
-    margin-left: auto; /* Push caret to the far right */
-  }
 }
 
 }
