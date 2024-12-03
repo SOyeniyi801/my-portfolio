@@ -159,6 +159,7 @@ h3 {
 /* Section Title Ends */
 
 /* Navbar Style Start*/
+
 .logo {
   width: 90px;
 }
@@ -177,91 +178,81 @@ h3 {
   z-index: 3;
 }
 
-.navbar-items {
-  display: none; /* Hidden by default */
+.nav_hamburger {
+  display: none;
+  width: 1.875rem;
+  height: 1.313rem;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
-  background-color: var(--white);
+  justify-content: space-around;
   position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 100; /* Ensure it appears above other content */
-  padding: 2rem 0;
-  transition: all 0.4s ease-in-out;
+  top: 20px;
+  right: 25px;
+  cursor: pointer;
 }
 
-.navbar-items.active {
-  display: flex; /* Show when active */
-  top: 60px; /* Adjust to show below the navbar */
+.nav_hamburger_line {
+  display: block;
+  height: 0.188rem;
+  width: 100%;
+  background-color: var(--black);
+  border-radius: 0.625rem;
+  transition: all ease-in-out 0.2s;
 }
 
-.navbar-items > ul {
+.nav_hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(0.45rem, 0.1875rem);
+}
+
+.nav_hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav_hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
+}
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-items ul {
   list-style: none;
   display: flex;
-  flex-direction: column; /* Stack items vertically for dropdowns */
-  align-items: center;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  gap: 1rem;
-}
-
-.navbar-items ul li {
-  text-align: center;
-  width: 100%; /* Ensure items take full width */
+  gap: 30px;
 }
 
 .navbar-items ul li a {
   text-decoration: none;
-  padding: 0.5rem; /* Add padding for better click area */
-}
-
-.navbar-content {
   color: var(--darkblue);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   cursor: pointer;
 }
 
+.navbar-items ul li a:hover,
 .navbar-active-content {
   color: var(--primary);
 }
 
-.nav_hamburger {
+.navbar-items.active {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  width: 2rem;
-  height: 2rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-  z-index: 300; /* Ensure it appears above navbar-items */
-}
-
-.nav_hamburger_line {
+  position: absolute;
+  top: 60px;
+  left: 0;
   width: 100%;
-  height: 3px;
-  background-color: var(--black);
-  border-radius: 5px;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  background-color: var(--white);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem 0;
 }
 
-.nav_hamburger.active .nav_hamburger_line:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
+.navbar-items.active ul {
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }
-
-.nav_hamburger.active .nav_hamburger_line:nth-child(2) {
-  opacity: 0;
-}
-
-.nav_hamburger.active .nav_hamburger_line:nth-child(3) {
-  transform: rotate(-45deg) translate(5px, -5px);
-}
-
 /* Navbar Style End */
 
 /* Hero Section Style */
@@ -774,16 +765,18 @@ h3 {
   }
 
   .navbar-items {
-    position: absolute;
-    display: flex;
+    display: none; /* Hidden by default for mobile */
+    flex-direction: column; /* Column layout for dropdown */
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255);
-    top: -20rem;
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 60%; /* Keep offscreen initially */
     left: 0;
-    width: 100%;
-    transition: all ease-in-out 0.4s;
+    width: 100%; /* Full width for mobile */
+    transition: top 0.4s ease-in-out;
   }
+
 
   .navbar-items.active {
     top: 30px;
@@ -792,35 +785,6 @@ h3 {
   .graphics-grid, .videos-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  /* General Navbar Adjustments for Mobile */
-@media only screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 15px 20px;
-  }
-
-  .navbar-items {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    width: 100%;
-  }
-
-  .navbar-items ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  
-  
-
-  
-
-}
-
 }
 
 
@@ -932,7 +896,7 @@ h3 {
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255);
-    top: -20rem;
+    top: -30rem;
     left: 0;
     width: 100%;
     transition: all ease-in-out 0.4s;
