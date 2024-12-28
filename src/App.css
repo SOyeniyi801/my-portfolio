@@ -479,6 +479,8 @@ h3 {
 }
 
 /* Projects Section Ends */
+
+/* Graphocs Section Starts */
 .graphics-section {
   display: flex;
   padding: 112px 85px;
@@ -537,7 +539,7 @@ h3 {
 /* Graphics end */
 
 /* Videos section */
-.videos-section {
+.freebies-section {
   display: flex;
   padding: 112px 85px;
   flex-direction: column;
@@ -545,7 +547,7 @@ h3 {
   gap: 80px;
 }
 
-.videos-section-heading {
+.freebies-section-heading {
   color: var(--heading-color);
   font-size: 48px;
   font-weight: 700;
@@ -553,14 +555,14 @@ h3 {
   text-align: center;
 }
 
-.videos-grid {
+.freebies-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   width: 100%;
 }
 
-.video-card {
+.freebies-card {
   border-radius: 10px;
   background-color: var(--bg-shade);
   padding: 16px;
@@ -568,24 +570,24 @@ h3 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.video-card:hover {
+.freebies-card:hover {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-.video-card video {
+.freebies-card video {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 16px;
 }
 
-.video-title {
+.freebies-title {
   font-size: 24px;
   font-weight: 700;
   color: var(--heading-color);
   margin: 8px 0;
 }
 
-.video-description {
+.vidfreebieseo-description {
   font-size: 16px;
   font-weight: 400;
   color: var(--darkblue);

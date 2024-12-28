@@ -131,6 +131,20 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
+              to="Freebies"
+              className="navbar-content"
+            >
+              Freebies
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar-active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
               to="Contact"
               className="navbar-content"
             >
