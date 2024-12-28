@@ -13,7 +13,7 @@ function Graphics() {
   };
 
   return (
-    <section className="graphics-section" id="MyGraphics">
+    <section className="graphics-section" id="graphics">
       <div className="graphics-container-box">
         <div className="graphics-container">
           <h2 className="graphics-section-heading">Social Media Graphics</h2>

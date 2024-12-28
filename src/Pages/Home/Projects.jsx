@@ -13,7 +13,7 @@ function Projects() {
   };
 
   return (
-    <section className="projects-section" id="MyProjects">
+    <section className="projects-section" id="webdesign">
       <div className="projects-container-box">
         <div className="projects-container">
           <h2 className="projects-section-heading">Web Design</h2>

@@ -13,7 +13,7 @@ function Freebies() {
   };
 
   return (
-    <section className="freebies-section" id="Freebies">
+    <section className="freebies-section" id="freebies">
       <div className="freebies-container-box">
         <div className="freebies-container">
           <h2 className="freebies-section-heading">Freebies</h2>

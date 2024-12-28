@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 function Hero (){
     return(
-        <section id="heroSection" className="hero-section">
+        <section id="home" className="hero-section">
             <div className='hero-section-content-box'>
                 <div className="hero-section-content">
                     <p className="section-title">Hey I'm Sammi</p>

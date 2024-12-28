@@ -29,7 +29,7 @@ function Contact() {
       };
     
     return (
-        <section id="Contact" className="contact-section">
+        <section id="contact" className="contact-section">
             <div>
                 <p className="sub-title"> Get In Touch</p>
                 <h2>Contact Me</h2>

@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section id="AboutMe" className="about-section">
+    <section id="aboutMe" className="about-section">
       <div className="about-section-img">
         <img src="./assets/freelance-web-developer-atlanta-sammi-abouimage.png" alt="About me" />
       </div>

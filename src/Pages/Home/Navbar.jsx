@@ -58,7 +58,7 @@ function Navbar() {
               spy={true}
               offset={-70}
               duration={500}
-              to="heroSection"
+              to="home"
               className="navbar-content"
             >
               <img className="logo" src="./assets/SammiDevLogo.png" alt="logo" />
@@ -79,9 +79,10 @@ function Navbar() {
               onClick={closeMenu}
               activeClass="navbar-active-content"
               spy={true}
+              smooth={true}
               offset={-70}
               duration={500}
-              to="heroSection"
+              to="home"
               className="navbar-content"
             >
               Home
@@ -93,9 +94,10 @@ function Navbar() {
               onClick={closeMenu}
               activeClass="navbar-active-content"
               spy={true}
+              smooth={true}
               offset={-70}
               duration={500}
-              to="AboutMe"
+              to="aboutMe"
               className="navbar-content"
             >
               About Me
@@ -106,9 +108,10 @@ function Navbar() {
               onClick={closeMenu}
               activeClass="navbar-active-content"
               spy={true}
+              smooth={true}
               offset={-70}
               duration={500}
-              to="mySkills"
+              to="services"
               className="navbar-content"
             >
               Services
@@ -119,9 +122,10 @@ function Navbar() {
               onClick={closeMenu}
               activeClass="navbar-active-content"
               spy={true}
+              smooth={true}
               offset={-70}
               duration={500}
-              to="MyProjects"
+              to="webdesign"
               className="navbar-content"
             >
               Web Design
@@ -132,9 +136,10 @@ function Navbar() {
               onClick={closeMenu}
               activeClass="navbar-active-content"
               spy={true}
+              smooth={true}
               offset={-70}
               duration={500}
-              to="MyGraphics"
+              to="graphics"
               className="navbar-content"
             >
               Graphics
@@ -148,7 +153,7 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="Freebies"
+              to="freebies"
               className="navbar-content"
             >
               Freebies
@@ -162,7 +167,7 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="Contact"
+              to="contact"
               className="navbar-content"
             >
               Contact
