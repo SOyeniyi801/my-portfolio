@@ -22,7 +22,7 @@ function Hero (){
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Contact"
+                to="contact"
                 className="btn btn-primary"
                 > 
                     Hire Me </Link>
