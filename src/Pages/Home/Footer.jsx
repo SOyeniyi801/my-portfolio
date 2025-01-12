@@ -120,7 +120,7 @@ function Footer() {
         <a
           href="https://www.tiktok.com/@sammi.the.dev"
           target="_blank"
-          rel="noreferAboutrer"
+          rel="noreferrer"
           className="hover:text-pink-500 transition-colors"
         >
           {/* TikTok Icon */}
