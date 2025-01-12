@@ -31,8 +31,8 @@ function Hero() {
       className="min-h-screen flex flex-col justify-center px-8 bg-black overflow-hidden"
       id="home"
     >
-      <div className="max-w-6xl mx-auto w-full">
-        <div className="w-12 h-12 rounded-full overflow-hidden ring-2 ring-pink-500 mb-8">
+      <div className="max-w-6xl mx-auto w-full pt-10">
+        <div className="w-12 h-12 rounded-full overflow-hidden ring-2 ring-pink-500 mb-2">
           <img
             src="./assets/hero-image.png"
             alt="Avatar"
