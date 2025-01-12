@@ -16,8 +16,9 @@ module.exports = {
           'Droid Sans',
           'Helvetica Neue',
           'sans-serif',
-          'Raleway'
         ],
+        exo: ['"Exo 2"', 'sans-serif'],  // Note the quotes around "Exo 2"
+        alegreya: ['"Alegreya Sans"', 'sans-serif']
       },
       keyframes: {
         slideDown: {

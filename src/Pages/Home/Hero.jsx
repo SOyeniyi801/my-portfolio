@@ -6,7 +6,7 @@ function Hero() {
   const [nextIndex, setNextIndex] = useState(1);
   const [isInitialLoad, setIsInitialLoad] = useState(true);
   
-  const phrases = ["UX Design", "Web Design", "E-commerce Sites"].map(
+  const phrases = ["Custom Web Design", "E-commerce Sites", "Website Maintenance", "App Integrations"].map(
     (phrase) => phrase.toUpperCase()
   );
 
@@ -42,7 +42,7 @@ function Hero() {
 
         <div className="overflow-hidden">
           <div className={`transform ${isInitialLoad ? 'animate-slideDown' : ''}`}>
-            <h1 className="text-white font-system font-black text-4xl md:text-6xl lg:text-8xl tracking-tight leading-tight">
+            <h1 className="text-white font-exo font-black text-4xl md:text-6xl lg:text-8xl tracking-tight leading-tight">
               FREELANCE DEVELOPER
             </h1>
           </div>
@@ -50,7 +50,7 @@ function Hero() {
 
         <div className="overflow-hidden">
           <div className={`transform ${isInitialLoad ? 'animate-slideDown' : ''} animation-delay-100`}>
-            <h1 className="text-white font-system font-black text-4xl md:text-6xl lg:text-8xl tracking-tight leading-tight">
+            <h1 className="text-white font-exo font-black text-4xl md:text-6xl lg:text-8xl tracking-tight leading-tight">
               SPECIALIZING IN
             </h1>
           </div>
@@ -61,7 +61,7 @@ function Hero() {
             key={currentIndex}
             className="absolute w-full animate-wordChange"
           >
-            <h1 className="text-pink-500 font-system font-black text-3xl md:text-5xl lg:text-7xl tracking-tight leading-tight">
+            <h1 className="text-pink-500 font-alegreya font-black text-3xl md:text-5xl lg:text-7xl tracking-tight leading-tight">
               {phrases[currentIndex]}
             </h1>
           </div>
@@ -73,7 +73,7 @@ function Hero() {
             smooth={true}
             offset={-70}
             duration={500}
-            className="px-8 py-4 bg-pink-500 text-white font-system font-semibold rounded-lg hover:bg-pink-600 transition-colors text-lg inline-block"
+            className="px-8 py-4 bg-pink-500 text-white font-semibold rounded-lg hover:bg-pink-600 transition-colors text-lg inline-block"
           >
             Work With Me
           </Link>

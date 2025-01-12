@@ -14,11 +14,11 @@ function About() {
 
       {/* Content container */}
       <div className="w-full md:w-1/2 max-w-2xl">
-        <h1 className=" text-pink-500 text-4xl md:text-5xl lg:text-6xl font-black mb-8 font-system tracking-tight">
+        <h1 className=" text-pink-500 text-4xl md:text-5xl lg:text-6xl font-black mb-8 tracking-tight">
           About Me
         </h1>
         
-        <p className="text-lg text-white leading-relaxed font-system">
+        <p className="text-lg text-white leading-relaxed">
           Hi, I'm Sammi, a freelance web developer based in Atlanta, GA, specializing 
           in websites for small businesses and entrepreneurs. I started my journey as 
           a self-taught front-end developer intern and have spent the past five years 

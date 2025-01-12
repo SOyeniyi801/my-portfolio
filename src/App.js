@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-// import "./App.css";
+import "./App.css";
 import './index.css';
 import usePageTracking from "./hooks/usePageTracking";
 import Navbar from "./Pages/Home/Navbar";

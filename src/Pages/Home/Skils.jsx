@@ -5,7 +5,7 @@ function MySkills() {
   return (
     <section className="min-h-screen bg-black py-20 px-8" id="services">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-white font-system text-4xl md:text-5xl font-black mb-16 text-center">
+        <h2 className="text-white text-4xl md:text-5xl font-black mb-16 text-center">
           Services
         </h2>
         
@@ -13,17 +13,17 @@ function MySkills() {
           {data?.skills?.map((item, index) => (
             <div key={index} className="flex flex-col">
               {/* Service Counter */}
-              <span className="text-pink-500 font-system text-lg mb-4">
+              <span className="text-pink-500 text-lg mb-4">
                 S / {index + 1}
               </span>
               
               {/* Title */}
-              <h3 className="font-system text-white text-2xl md:text-3xl font-black mb-4">
+              <h3 className="text-white text-2xl md:text-3xl font-black mb-4">
                 {item.title}
               </h3>
               
               {/* Description */}
-              <p className="text-white font-system text-lg leading-relaxed">
+              <p className="text-white text-lg leading-relaxed">
                 {item.description}
               </p>
             </div>
