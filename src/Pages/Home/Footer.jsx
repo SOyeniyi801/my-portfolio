@@ -20,7 +20,7 @@ function Footer() {
         <ul className="flex space-x-4 font-open-sans text-sm">
           <li>
             <Link
-              to="heroSection"
+              to="home"
               className="hover:text-pink-500 transition-colors"
               smooth={true}
               offset={-70}
@@ -31,18 +31,7 @@ function Footer() {
           </li>
           <li>
             <Link
-              to="MyProjects"
-              className="hover:text-pink-500 transition-colors"
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="AboutMe"
+              to="about"
               className="hover:text-pink-500 transition-colors"
               smooth={true}
               offset={-70}
@@ -53,7 +42,29 @@ function Footer() {
           </li>
           <li>
             <Link
-              to="Contact"
+              to="projects"
+              className="hover:text-pink-500 transition-colors"
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Web Design
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="graphics"
+              className="hover:text-pink-500 transition-colors"
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Graphics
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="contact"
               className="hover:text-pink-500 transition-colors"
               smooth={true}
               offset={-70}
@@ -109,7 +120,7 @@ function Footer() {
         <a
           href="https://www.tiktok.com/@sammi.the.dev"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferAboutrer"
           className="hover:text-pink-500 transition-colors"
         >
           {/* TikTok Icon */}
