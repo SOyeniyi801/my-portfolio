@@ -2,14 +2,14 @@ import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
 function Navbar() {
-  const [navActive, setNaveActive] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleNav = () => {
-    setNaveActive(!navActive);
+    setIsOpen(!isOpen);
   };
 
   const closeMenu = () => {
-    setNaveActive(false);
+    setIsOpen(false);
   };
 
   useEffect(() => {
@@ -20,10 +20,7 @@ function Navbar() {
     };
 
     window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   useEffect(() => {
@@ -44,138 +41,99 @@ function Navbar() {
     };
 
     window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
-    <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div>
-        <Link
-              onClick={closeMenu}
-              activeClass="navbar-active-content"
-              spy={true}
-              offset={-70}
-              duration={500}
+    <nav className="fixed w-full z-50 bg-black text-white border-b border-gray-800">
+      <div className="max-w-6xl mx-auto px-4">
+        <div className="flex justify-between items-center h-16">
+          {/* Logo */}
+          <div className="flex-shrink-0">
+            <Link
               to="home"
-              className="navbar-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="cursor-pointer"
+              onClick={closeMenu}
             >
-              <img className="logo" src="./assets/SammiDevLogo.png" alt="logo" />
+              <img 
+                className="h-8 w-auto" 
+                src="./assets/sammi-dev-logo-pink.png" 
+                alt="Logo" 
+              />
             </Link>
-      </div>
-      <button
-        className={`nav_hamburger ${navActive ? "active" : ""}`}
-        onClick={toggleNav}
-      >
-        <span className="nav_hamburger_line"></span>
-        <span className="nav_hamburger_line"></span>
-      </button>
+          </div>
 
-      <div className={`navbar-items ${navActive ? "active" : ""}`}>
-        <ul>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar-active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="home"
-              className="navbar-content"
+          {/* Mobile menu button */}
+          <div className="md:hidden">
+            <button
+              onClick={toggleNav}
+              className="inline-flex items-center justify-center p-2 rounded-md hover:bg-gray-800 focus:outline-none"
             >
-              Home
-            </Link>
-          </li>
+              <span className="sr-only">Open main menu</span>
+              <div className="relative w-6 h-6">
+                <span 
+                  className={`absolute block w-6 h-0.5 bg-white transform transition duration-300 ease-in-out ${
+                    isOpen ? 'rotate-45 translate-y-1.5' : '-translate-y-1'
+                  }`}
+                />
+                <span 
+                  className={`absolute block w-6 h-0.5 bg-white transform transition duration-300 ease-in-out ${
+                    isOpen ? '-rotate-45 translate-y-1.5' : 'translate-y-1'
+                  }`}
+                />
+              </div>
+            </button>
+          </div>
 
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar-active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="aboutMe"
-              className="navbar-content"
-            >
-              About Me
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar-active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="services"
-              className="navbar-content"
-            >
-              Services
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar-active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="webdesign"
-              className="navbar-content"
-            >
-              Web Design
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar-active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="graphics"
-              className="navbar-content"
-            >
-              Graphics
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar-active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="freebies"
-              className="navbar-content"
-            >
-              Freebies
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar-active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="contact"
-              className="navbar-content"
-            >
-              Contact
-            </Link>
-          </li>
-        </ul>
+          {/* Desktop menu */}
+          <div className="hidden md:block">
+            <div className="flex space-x-8">
+              {['Home', 'About', 'Services', 'Projects', 'Graphics', 'Contact'].map((item) => (
+                <Link
+                  key={item}
+                  to={item.toLowerCase().replace(' ', '')}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  className="text-white hover:text-pink-500 px-3 py-2 text-sm font-medium cursor-pointer transition-colors"
+                  activeClass="text-pink-500"
+                  onClick={closeMenu}
+                >
+                  {item}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Mobile menu */}
+        <div className={`md:hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
+          <div className="px-2 pt-2 pb-3 space-y-1">
+            {['Home', 'About', 'Services', 'Projects', 'Graphics', 'Contact'].map((item) => (
+              <Link
+                key={item}
+                to={item.toLowerCase().replace(' ', '')}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="text-white hover:text-pink-500 block px-3 py-2 text-base font-medium cursor-pointer transition-colors"
+                activeClass="text-pink-500"
+                onClick={closeMenu}
+              >
+                {item}
+              </Link>
+            ))}
+          </div>
+        </div>
       </div>
     </nav>
   );
 }
+
 export default Navbar;

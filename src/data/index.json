@@ -3,55 +3,81 @@
         {
             "id": "1",
             "src": "./assets/freelance-web-developer-atlanta-sammi-small-business.png",
-            "title": "Small Business Websites",
-            "description": "Empower your small business with a professional and responsive website tailored to your unique needs. From design to launch, I create user-friendly sites that help you connect with customers and grow your brand."
+            "title": "E-Commerce Solutions That Drive Sales",
+            "description": "Crafting seamless and user-friendly online stores to boost your business and enhance the shopping experience."
         },
         {
             "id": "2",
             "src": "./assets/freelance-web-developer-atlanta-sammi-landing-pages.png",
-            "title": "Single Page Websites",
-            "description": "Create an impact with a single-page website that captures attention and delivers key information fast. I design responsive, appealing single-page sites that highlight your brand's essence. I'll ensure your site is both engaging and effective."
+            "title": "Custom Landing Pages That Convert",
+            "description": "Designing strategic, high-impact landing pages to transform clicks into leads and customers."
         },
         {
             "id": "3",
             "src": "./assets/freelance-web-developer-atlanta-sammi-web-maintenance.png",
-            "title": "Website Maintenance",
-            "description": "Keep your website fresh and engaging with comprehensive maintenance services. I handle copy and image updates, design changes, and debugging to ensure your site remains attractive, functional, and up-to-date."
+            "title": "Small Business Websites Built for Growth",
+            "description": "Empowering small businesses with professional, scalable websites tailored to your unique goals."
         },
         {
             "id": "4",
             "src": "./assets/freelance-web-developer-atlanta-sammi-web-design.png",
-            "title": "Website Design",
-            "description": "Elevate your brand's online presence with custom web design that captivates. I create visually stunning, websites that reflect your unique brand identity. Every element is carefully crafted to engage your audience and drive business growth."
+            "title": "Website Design That Captivates and Engages",
+            "description": "Creating visually stunning and functional designs that leave a lasting impression on your audience."
+        },{
+            "id": "5",
+            "src": "./assets/freelance-web-developer-atlanta-sammi-web-design.png",
+            "title": "Revamping Existing Websites for Modern Performance",
+            "description": "Transforming outdated sites into dynamic, high-performing platforms that align with your brand's vision."
         }
     ],
     "projects": [
         {
             "id": "1",
-            "src": "./assets/freelance-web-developer-atlanta-sammi-waveysworld-enlarged.png",
-            "popoutSrc": "./assets/freelance-web-developer-atlanta-sammi-waveysworld-enlarged-1.png",
-            "title": "Wavey's World Website",
-            "description": "self-hosted by Webflow",
+            "src": "./assets/shopify-integration-comedian-website-design.png",
+            "title": "Wavey’s World Hub - The Comedian's Digital Central",
+            "description": "A sleek and engaging website for Wavey, a comedian who needed a one-stop hub for his work. Features include Shopify integration for merchandise, an events page to buy tickets directly, and a contact page to connect with fans and collaborators.",
             "projectSite": "https://www.waveysworld.com/",
             "projectTag": "View Live Site"
         }, 
         {
             "id": "2",
-            "src": "./assets/freelance-web-developer-atlanta-sammi-fireapp-portfolio.png",
-            "popoutSrc": "./assets/freelance-web-developer-atlanta-sammi-enlargedFirechat.png",
-            "title": "Firechat App Landing Page",
-            "description": "hosted by Webflow",
-            "projectSite": "https://firechatapp.webflow.io/",
+            "src": "./assets/youtube-integration-tech-podcast-website.png",
+            "title": "Tech Woke - The Ultimate Tech Podcast Platform",
+            "description": "A modern, functional website for Tech Woke, providing a centralized space to watch podcast episodes. Integrated with Shopify for merchandise sales and features embedded YouTube videos for seamless episode viewing.",
+            "projectSite": "https://www.techwokepodcast.com/",
             "projectTag": "View Live Site"
         }, 
        
         {
             "id": "3",
-            "src": "./assets/freelance-web-developer-atlanta-sammi-techwoke-portfolio.png",
-            "popoutSrc": "./assets/freelance-web-developer-atlanta-sammi-techwoke-enlarged.png",
-            "title": "Tech Woke Podcast Website",
-            "description": "Hosted by Wix",
-            "projectSite": "https://www.techwokepodcast.com/",
+            "src": "./assets/mailchimp-integration-nonprofit-website-design.png",
+            "title": "Jordan's Art Studio - Empowering Creativity Through STEM",
+            "description": "Designed and built a dynamic website for a nonprofit art and STEM studio. Highlights include Mailchimp integration for newsletters and updates, enabling the organization to connect with its community more effectively.",
+            "projectSite": "https://jordans-steam-studio.webflow.io/",
+            "projectTag": "View Live Site"
+        },
+        {
+            "id": "4",
+            "src": "./assets/carpet-cleaner-website-homepage-web-developer.png.png",
+            "title": "Fresh & Clean - Carpet Cleaner Website Solution",
+            "description": "Built a professional online presence for a carpet cleaning service, complete with booking and contact forms. Handled all aspects of design, copywriting, and image sourcing to deliver a cohesive and impactful site.",
+            "projectSite": "https://sammiwebdev.wixstudio.com/carpetcleaner",
+            "projectTag": "View Live Site"
+        },
+        {
+            "id": "5",
+            "src": "./assets/content-creator-media-kit-website-design.png",
+            "title": "The Media Kit - Showcasing Creativity with Style",
+            "description": "Designed a professional media kit using Canva, tailored to highlight my personal brand. Features include visually engaging charts and phone video mockups, providing a sleek, mobile-friendly way to showcase work, metrics, and achievements to collaborators and potential partners.",
+            "projectSite": "https://sammiwebdev.my.canva.site/mediakit",
+            "projectTag": "View Live Site"
+        },
+        {
+            "id": "6",
+            "src": "./assets/custom-linktree-alternative-website-developer.png",
+            "title": "LinkHub - The Custom Coded Linktree Alternative",
+            "description": "Developed a fully custom-coded Linktree-style solution with an added shop section. Perfect for creators and entrepreneurs seeking a centralized platform to showcase their links, sell products, and stand out with a unique, personalized design.",
+            "projectSite": "https://linkhub-3t7vv3j40-samanthaoyeniyis-projects.vercel.app/",
             "projectTag": "View Live Site"
         }
     ],

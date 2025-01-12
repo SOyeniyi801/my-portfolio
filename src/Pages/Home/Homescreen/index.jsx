@@ -5,7 +5,6 @@ import Projects from "../Projects";
 import Contact from "../Contact";
 import Footer from "../Footer";
 import Graphics from "../Graphics";
-import Freebies from "../Freebies";
 
 function Home (){
     return (
@@ -15,7 +14,6 @@ function Home (){
          <Skills />
          <Projects />
          <Graphics />
-         <Freebies />
          <Contact />
          <Footer />
         </> 
