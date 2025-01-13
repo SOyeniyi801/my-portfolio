@@ -43,7 +43,7 @@
             "id": "2",
             "src": "./assets/youtube-integration-tech-podcast-website.png",
             "title": "Tech Woke - The Ultimate Tech Podcast Platform",
-            "description": "A modern, functional website for Tech Woke, providing a centralized space to watch podcast episodes. Integrated with Shopify for merchandise sales and features embedded YouTube videos for seamless episode viewing.",
+            "description": "A modern, functional website for Tech Woke, providing a centralized space to watch podcast episodes. Integrated with embedded YouTube videos for seamless episode viewing.",
             "projectSite": "https://www.techwokepodcast.com/",
             "projectTag": "View Live Site"
         }, 
@@ -51,7 +51,7 @@
         {
             "id": "3",
             "src": "./assets/mailchimp-integration-nonprofit-website-design.png",
-            "title": "Jordan's Art Studio - Empowering Creativity Through STEM",
+            "title": "Nonprofit Art Studio - Empowering Creativity Through STEM",
             "description": "Designed and built a dynamic website for a nonprofit art and STEM studio. Highlights include Mailchimp integration for newsletters and updates, enabling the organization to connect with its community more effectively.",
             "projectSite": "https://jordans-steam-studio.webflow.io/",
             "projectTag": "View Live Site"
