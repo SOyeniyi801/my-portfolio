@@ -36,6 +36,7 @@
             "src": "./assets/shopify-integration-comedian-website-design.png",
             "title": "Wavey’s World Hub - The Comedian's Digital Central",
             "description": "A sleek and engaging website for Wavey, a comedian who needed a one-stop hub for his work. Features include Shopify integration for merchandise, an events page to buy tickets directly, and a contact page to connect with fans and collaborators.",
+            "platform": "Built on - Webflow",
             "projectSite": "https://www.waveysworld.com/",
             "projectTag": "View Live Site"
         }, 
@@ -44,6 +45,7 @@
             "src": "./assets/youtube-integration-tech-podcast-website.png",
             "title": "Tech Woke - The Ultimate Tech Podcast Platform",
             "description": "A modern, functional website for Tech Woke, providing a centralized space to watch podcast episodes. Integrated with embedded YouTube videos for seamless episode viewing.",
+            "platform": "Built on - Wix",
             "projectSite": "https://www.techwokepodcast.com/",
             "projectTag": "View Live Site"
         }, 
@@ -53,6 +55,7 @@
             "src": "./assets/mailchimp-integration-nonprofit-website-design.png",
             "title": "Nonprofit Art Studio - Empowering Creativity Through STEM",
             "description": "Designed and built a dynamic website for a nonprofit art and STEM studio. Highlights include Mailchimp integration for newsletters and updates, enabling the organization to connect with its community more effectively.",
+            "platform": "Built on - Webflow",
             "projectSite": "https://jordans-steam-studio.webflow.io/",
             "projectTag": "View Live Site"
         },
@@ -61,6 +64,7 @@
             "src": "./assets/carpet-cleaner-website-homepage-web-developer.png.png",
             "title": "Fresh & Clean - Carpet Cleaner Website Solution",
             "description": "Built a professional online presence for a carpet cleaning service, complete with booking and contact forms. Handled all aspects of design, copywriting, and image sourcing to deliver a cohesive and impactful site.",
+            "platform": "Built on - Wix",
             "projectSite": "https://sammiwebdev.wixstudio.com/carpetcleaner",
             "projectTag": "View Live Site"
         },
@@ -69,6 +73,7 @@
             "src": "./assets/content-creator-media-kit-website-design.png",
             "title": "The Media Kit - Showcasing Creativity with Style",
             "description": "Designed a professional media kit using Canva, tailored to highlight my personal brand. Features include visually engaging charts and phone video mockups, providing a sleek, mobile-friendly way to showcase work, metrics, and achievements to collaborators and potential partners.",
+            "platform": "Built on - Canva",
             "projectSite": "https://sammiwebdev.my.canva.site/mediakit",
             "projectTag": "View Live Site"
         },
@@ -77,6 +82,7 @@
             "src": "./assets/custom-linktree-alternative-website-developer.png",
             "title": "LinkHub - The Custom Coded Linktree Alternative",
             "description": "Developed a fully custom-coded Linktree-style solution with an added shop section. Perfect for creators and entrepreneurs seeking a centralized platform to showcase their links, sell products, and stand out with a unique, personalized design.",
+            "platform": "Built on - HTML/CSS/JS, Deployed via Vercel",
             "projectSite": "https://linkhub-3t7vv3j40-samanthaoyeniyis-projects.vercel.app/",
             "projectTag": "View Live Site"
         }
