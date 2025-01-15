@@ -7,7 +7,7 @@ function Graphics() {
     <section className="bg-black text-white py-10" id="graphics">
     <div className="container mx-auto px-5">
     <h2 className="text-white text-4xl md:text-5xl font-black mb-16 text-center">
-        Web Design
+        Social Media Graphics
       </h2>
       <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {data.graphics.map((graphics) => (
