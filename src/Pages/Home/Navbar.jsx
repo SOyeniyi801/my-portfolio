@@ -92,7 +92,18 @@ function Navbar() {
           {/* Desktop menu */}
           <div className="hidden md:block">
             <div className="flex space-x-8">
-              {['Home', 'About', 'Services', 'Projects', 'Graphics', 'Contact'].map((item) => (
+              {['Home', 'About', 'Services', 'Projects', 'Graphics', 'Bloom Link','Contact'].map((item) => (
+                item === 'Bloom Link' ? (
+                  <a
+                    key={item}
+                    href="https://preview.mailerlite.io/preview/1380488/sites/148601308114323225/bloomlink" // Replace with actual link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white hover:text-pink-500 px-3 py-2 text-sm font-medium cursor-pointer transition-colors"
+                  >
+                    {item}
+                  </a>
+                ) : (
                 <Link
                   key={item}
                   to={item.toLowerCase().replace(' ', '')}
@@ -106,7 +117,7 @@ function Navbar() {
                 >
                   {item}
                 </Link>
-              ))}
+              )))}
             </div>
           </div>
         </div>
@@ -114,7 +125,18 @@ function Navbar() {
         {/* Mobile menu */}
         <div className={`md:hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
           <div className="px-2 pt-2 pb-3 space-y-1">
-            {['Home', 'About', 'Services', 'Projects', 'Graphics', 'Contact'].map((item) => (
+            {['Home', 'About', 'Services', 'Projects', 'Graphics', 'Bloom Link', 'Contact'].map((item) => (
+              item === 'Bloom Link' ? (
+                <a
+                key={item}
+                href="https://preview.mailerlite.io/preview/1380488/sites/148601308114323225/bloomlink" // Replace with actual link
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-pink-500 px-3 py-2 text-sm font-medium cursor-pointer transition-colors"
+              >
+                {item}
+              </a>
+            ) :  
               <Link
                 key={item}
                 to={item.toLowerCase().replace(' ', '')}
